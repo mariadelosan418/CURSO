@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+    background-color: #FF1493;
+      
+}
+
+h5{
+    font-size: 40PX;
+    font-family: Verdana;
+    
+    color: #2b14ffd5;  
+}
+
+.calContainer {
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    margin-top: 60px;
+    
+}
+
+
+
+
+form {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color:#191919;
+    
+}
+
+.display {
+    grid-column: 1/5;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: end;
+    background: rgb(235, 230, 229);
+}
+
+.btnC {
+    grid-column: 1/4;
+    border: none;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    background: rgb(255, 71, 71);
+    border-radius: 15px;
+    color: white;
+}
+
+
+.btnC:hover {
+    background: #ff2727;
+    
+}
+
+.btn {
+    border: none;
+    margin: 5px;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: linear-gradient(#dbdbdf,#8f8c8c);
+    border-radius: 15px;
+    
+}
+
+
+
+
+.btn:hover {
+    background: #868686;
+    opacity: 1;
+    
+    
+}
+
+
+.btnEq {
+    border: none;
+    margin: 5px;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgb(74, 158, 255);
+
+}
+
+
+.btnEq:hover {
+    background: rgb(0, 103, 221);
+}
+
+
+
+
+/*-------------RESPONSIVE-------------*/
+
+
+@media (max-width: 1024px){
+    .calContainer{
+        width: 40%;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .calContainer{
+        width: 50%;
+        
+    }
+}
+
+@media (max-width: 540px){
+    .calContainer{
+        width: 90%;
+        
+    }
+}
